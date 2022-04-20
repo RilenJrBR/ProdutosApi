@@ -1,5 +1,5 @@
 
-namespace ProdutosApi
+/*namespace ProdutosApi
 {
     public class Startup
     {
@@ -25,4 +25,4 @@ namespace ProdutosApi
             });
         }
     }
-}
+}*/
