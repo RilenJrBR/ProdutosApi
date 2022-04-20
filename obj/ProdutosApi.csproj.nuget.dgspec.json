@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj": {}
+    "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj": {
+    "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
+        "projectUniqueName": "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
         "projectName": "ProdutosApi",
-        "projectPath": "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
+        "projectPath": "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
         "packagesPath": "C:\\Users\\rilen\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\obj\\",
+        "outputPath": "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rilen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.4, )"
