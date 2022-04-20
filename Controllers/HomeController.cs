@@ -23,7 +23,7 @@ public class HomeController : ControllerBase
 
     #region snippet_Create
     [HttpPost]
-    public async Task<ActionResult<Produto>> cadastrar(Produto produtos){
+    public async Task<ActionResult<Produto>> PostProduto(Produto produtos){
         _context.Produtos.Add(produtos);
         await _context.SaveChangesAsync();
 
