@@ -1,20 +1,30 @@
 using Microsoft.EntityFrameworkCore;
 using ProdutosApi.Models;
 
-namespace ProdutosApi
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
+var builder = WebApplication.CreateBuilder(args);
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
-    }
+
+builder.Services.AddEntityFrameworkNpgsql()
+    .AddDbContext<ProdutoContext>(options =>
+    options.UseNpgsql("Host=localhost;Port=5432;Pooling=true;Database=cadProdutos;User Id=postgres;Password=rilen6578;"));
+
+var app = builder.Build();
+
+
+if (builder.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+    
 }
+
+app.UseHttpsRedirection();
+
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
