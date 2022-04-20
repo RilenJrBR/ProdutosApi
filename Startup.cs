@@ -18,7 +18,7 @@ namespace ProdutosApi
             services.AddControllers();
 
             services.AddDbContext<ProdutoContext>(opt =>
-                                               opt.UseInMemoryDatabase("ProdutosList"));
+                opt.UseInMemoryDatabase("ProdutosList"));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
