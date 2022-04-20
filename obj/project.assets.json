@@ -9334,11 +9334,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
+      "projectUniqueName": "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
       "projectName": "ProdutosApi",
-      "projectPath": "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
+      "projectPath": "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
       "packagesPath": "C:\\Users\\rilen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\obj\\",
+      "outputPath": "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rilen\\AppData\\Roaming\\NuGet\\NuGet.Config",

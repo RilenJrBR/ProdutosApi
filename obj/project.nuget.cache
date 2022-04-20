@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WxLLaWUHh4ai2FHD0c7YVmczQVYtzOwq3y0r7xu4Zs6e6R5xv4M/nUj4fRHJDa3+MGhl63Wn/WFJZnPEUQhDBQ==",
+  "dgSpecHash": "8bZn8TJYM6mPZsAkvutLsnl2d6lGIJnVgynntS1fChjwf57wql4iEsy2gbuBUVrpDGNwR0nK50HuZ+nF2G49wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
+  "projectFilePath": "c:\\Users\\rilen\\Desktop\\desafio ibid\\DesafioAPI_cadProdutos\\ProdutosApi\\ProdutosApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rilen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rilen\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

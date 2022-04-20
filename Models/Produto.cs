@@ -1,6 +1,6 @@
 namespace ProdutosApi.Models
 {
-    public class Produtos
+    public class Produto
     {
         public long Id { get; set; }
         public string? Name { get; set; }
