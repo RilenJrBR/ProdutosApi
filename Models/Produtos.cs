@@ -1,4 +1,3 @@
-
 namespace ProdutosApi.Models
 {
     public class Produtos

@@ -1,16 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using ProdutosApi.Models;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<ProdutoContext>(opt =>
+    opt.UseNpgsql(@"Host=myserver;Username=postgres;Password=rilen6578;Database=cadProdutos"));
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+if (builder.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    app.UseDeveloperExceptionPage();
+    }
 
 app.UseHttpsRedirection();
 
